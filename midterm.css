@@ -1,0 +1,70 @@
+body{
+	background-image: url('bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.box{
+	height:250px;
+	width: 80%;
+	margin-top: 25%;
+	margin-left: 150px;
+	background: rgba(255, 255, 255, 0.6);
+	position: fixed;
+}
+.title{
+	text-align: center;
+	color: #526f75;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 30px;
+}
+.intro{
+	text-align: center;
+	color: #a69fc1;
+	font-family: arial narrow;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px black;
+}
+.line{
+	height:3px;
+	width: 200px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background:#dea5a4;
+	padding-left:15px;
+	padding-right:15px;
+}
+#name{
+	font-family:impact;
+	font-size:70px;
+	margin-left:40%;
+	color: #526f75;
+	text-shadow: 2px 3px #4f4d65;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+.home{
+	margin-left: 20px;
+	margin-bottom: 700px;
+	display: inline-block;
+}
+.about{
+	margin-left: 200px;
+	margin-bottom: 700px;
+	display: inline-block;
+}
+.likes{
+	margin-left: 200px;
+	margin-bottom: 700px;
+	display: inline-block;
+}
+.nav{
+	margin-left: 200px;
+	margin-bottom: 700px;
+	display: inline-block;
+}

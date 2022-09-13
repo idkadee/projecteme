@@ -1,0 +1,260 @@
+<!--
+    coding by @shuvee || circa 2018
+    page : 003 : who?
+    
+    remember:
+   
+    ♡ do not remove credits (including this part)
+    ♡ do not steal parts of this code for your own use; google what you need
+    ♡ do not alter and/or redistribute
+   
+    ♡ reblog not repost ♡
+   
+    thanks for liking this enough to use it!! (´｡• ᵕ •｡`) ♡
+   
+    - emmy // shuvee, with love
+   
+-->
+<!DOCTYPE html>
+<head>
+    <title>W H O ?</title> <!--title in the tab-->
+    <link rel="shortcut icon" href="{Favicon}"> <!--icon in the tab-->
+    <link rel="altertnate" type="application/rss+xml" href="{RSS}">
+	 
+    <!--scripts + stylesheets-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,800|Roboto" rel="stylesheet">
+    <!--icon font by fontawsome | https://fontawesome.io/icons/-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://static.tumblr.com/ihhnoee/12Cotb0p2/jquery.style-my-tooltips.js"></script>
+ 
+<script>
+    (function($){
+        $(document).ready(function(){
+            $("a[title]").style_my_tooltips({
+                tip_follows_cursor:false,
+                tip_delay_time:100,
+                tip_fade_speed:300,
+            attribute:"title"
+});
+});
+})(jQuery);
+</script>   
+<style>
+#s-m-t-tooltip { /*what shows up when you hover over something with a title, such as the credit in the corner*/
+    max-width:175px;
+    margin:10px 14px 7px 10px;
+    padding:5px 7px;
+    background-color:#fff;/*tooltip bg*/
+    color:#888;/*tooltip text*/
+    border:solid 1px #eee;/*tooltip border color*/
+    font-family:'Open Sans', sans-serif;
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    line-height:10px;
+    z-index:99999999;
+}
+
+    /*iframe fix by @cyantists | cyantists.tumblr.com/post/163728517915/fix-tumblrs-new-controls-i-have-come-up-with-3*/
+iframe.tmblr-iframe { visibility:hidden; }
+
+    /*scrollbar customize*/
+::-webkit-scrollbar { height:2px; width:3px; background:#fff;/*scrollbar bg*/ }
+::-webkit-scrollbar-thumb { background:#888; /*scrollbar color*/ border-radius:3px; -webkit-border-radius:3px; }
+
+    /*coloring for what happens when you highlight text*/ 
+::-webkit-selection { background:#eee; color:#171717; }
+::-moz-selection { background:#eee; color:#171717; }
+::-ms-selection { background:#eee; color:#171717; }
+::-o-selection { background:#eee; color:#171717; }
+::selection { background:#eee; color:#171717; }
+
+/*general*/
+body {
+    background-color:#fbfbfb; /*background color*/
+    font-family:'Open Sans', sans-serif;
+    font-size:11px;
+    overflow-x:hidden;
+}
+ 
+a {
+    text-decoration: none;
+    -webkit-transition: all .35s ease-in-out;
+       -moz-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+         -o-transition: all .35s ease-in-out;
+            transition: all .35s ease-in-out;
+}
+ 
+/*remove the following for a regular cursor | change the url for your own*/
+*, body, a, a:hover {cursor: url(https://i.imgur.com/wwLFpao.png), auto;}
+/*end of custom cursor*/
+
+#galaxy { width:439px; margin:170px auto; }
+
+#sol { /*title*/
+    color:#ff7a24; /*title color*/
+    font-weight:800;
+    letter-spacing:10px; font-size:30px;
+    text-align:left; text-transform:uppercase;
+}
+
+#comet {
+    width:100px; height:100px;
+    padding:5px;
+    background:#fff; /*icon box background color*/
+    border:solid 1px #dbdbdb; /*icon box border color*/
+    box-shadow:7px 7px #eee; /*icon box shadow color*/
+    position:fixed;
+}
+
+#comet img { width:100px; height:100px; }
+
+#earth {
+    width:290px; height:100px;
+    margin-left:130px; padding:5px;
+    background:#fff; /*info box background color*/
+    border:solid 1px #dbdbdb; /*info box border color*/
+    box-shadow:7px 7px #eee; /*info box shadow color*/
+    position:fixed;
+}
+
+        /*mini info accent color*/
+#earth c { color:#e31b3f; text-transform:uppercase; }
+#earth p { margin-top:1px; margin-bottom:13px; }
+
+                        /*line colors; best if matched with border*/
+#vl1 { margin-top:-5px; margin-left:145px; stroke:#dbdbdb; position:fixed; }
+#hl1 { margin-top:11px; margin-left:-5px; stroke:#dbdbdb; position:fixed; }
+#hl2 { margin-top:39px; margin-left:-5px; stroke:#dbdbdb; position:fixed; }
+#hl3 { margin-top:67px; margin-left:-5px; stroke:#dbdbdb; position:fixed; }
+
+#box {
+    width:139px; height:100px;
+    margin-top:-118px; margin-left:146px; padding:5px;
+    position:fixed;
+}
+
+#box h1 {
+    margin-left:7px; margin-bottom:-5px; color:#e31b3f; /*playlist title color*/
+    font-size:11px; font-weight:600; font-style:italic;
+    text-align:left; text-transform:uppercase;
+}
+
+#box li { margin-left:-20px; line-height:120%; list-style: none; }
+#box li:before {
+    content:"+"; /* change update tab bullet points here | use something simple like a • or a character from an alt+ code : you can also use an emoji, just be sure to alter the line height above (standard is 120%; increase to anywhere between 130% and 150% if emojis are overlapping*/
+    padding-right: 5px;
+}
+
+#box a { color:#e31b3f; } /*playlist links color*/
+#box a:hover { color:#ff7a24; } /*playlist links hover color*/
+
+#luna {
+    width:420px; max-height:500px;
+    margin-top:130px; padding:5px;
+    background:#fff; /*description background color*/
+    border:solid 1px #dbdbdb; /*description border color*/
+    box-shadow:7px 7px #eee; /*description shadow color*/
+    text-align:justify;
+    position:relative;
+}
+
+#luna a { color:#e31b3f; } /*description link color*/
+#luna a:hover { color:#171717; } /*link hover color*/
+#luna i, b, u { color:#ff7a24; } /*italics, bold, underline color*/
+
+#stars {margin-top:20px; font-size:17px; text-align:center; position:relative;}
+
+#stars a { margin-left:30px; margin-right:30px;
+color:#ff7a24; } /*icon link color*/
+#stars a:hover { color:#e31b3f; } /*icon link hover color*/
+
+#saturn {
+    margin-top:15px; color:#aeaeae; /*quote text color*/
+    font-size:10px; text-align:center;
+    line-height:120%; position:relative;
+}
+
+#saturn a,a:hover { color:#777; } /*quote link color + hover color*/
+
+/*remember: don't remove or edit ♡ */
+#credit {
+    right:0; bottom:0; padding:9px 10px;
+    font-size:10px; position:fixed;
+    -webkit-transition: all .35s ease-in-out;
+       -moz-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+         -o-transition: all .35s ease-in-out;
+            transition: all .35s ease-in-out;
+    -webkit-transform: scaleX(-1);
+       -moz-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+         -o-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+
+#credit:hover {
+    -webkit-transform: scale(1.3) scaleX(-1);
+       -moz-transform: scale(1.3) scaleX(-1);
+        -ms-transform: scale(1.3) scaleX(-1);
+         -o-transform: scale(1.3) scaleX(-1);
+            transform: scale(1.3) scaleX(-1);
+}
+
+#credit a { color:#171717; text-decoration:none; }
+</style>
+</head>
+<body>
+<div id="galaxy">
+    <div id="sol">who?</div>  <!--title edit-->
+    <div id="comet">          <!--url for icon-->
+        <a href="/"><img src="https://i.imgur.com/rNPTmT7.png"></a>
+    </div><!--end comet-->
+    <div id="earth">
+        <div id="vl1"><svg height="110" width="1"><line x1="0" y1="0" x2="0" y2="289" style="stroke-width:5" /></svg></div>
+        <div id="hl1"><svg height="1" width="151"><line x1="0" y1="0" x2="289" y2="0" style="stroke-width:5" /></svg></div>
+        <div id="hl2"><svg height="1" width="151"><line x1="0" y1="0" x2="289" y2="0" style="stroke-width:5" /></svg></div>
+        <div id="hl3"><svg height="1" width="151"><line x1="0" y1="0" x2="289" y2="0" style="stroke-width:5" /></svg></div>
+        
+        <!--short bio info-->
+        <p><c>name:</c> Emmy</p>
+        <p><c>pronouns:</c> she/her</p>
+        <p><c>age:</c> 20</p>
+        <p><c>mbti:</c> INFP</p>
+        
+        <div id="box">
+            <h1>playlist</h1> <!--playlist links-->
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=CNfodZluR-Q">i am you</a> / skz</li>
+                    <li><a href="https://www.youtube.com/watch?v=OKNXn2qCEws">hann</a> / g-idle</li>
+                    <li><a href="https://www.youtube.com/watch?v=mAKsZ26SabQ">yes or yes</a> / twice</li>
+                    <li><a href="https://www.youtube.com/watch?v=KAXJCqDV4GE">good night kiss</a> / <br>kim donghan</li>
+                </ul>
+        </div><!--end box-->
+    </div><!--end earth-->
+    
+    <div id="luna"> <!--description-->
+        description. <a href="/">link.</a> <b>Lorem ipsum</b> <i>dolor sit amet</i>, <u>consectetur adipiscing elit</u>. Aenean non condimentum eros. Donec hendrerit finibus porttitor. Cras sit amet lectus sit amet leo sodales dictum eget non libero. Nulla feugiat elementum sem at suscipit. Vivamus a metus id felis cursus viverra pretium non est. Suspendisse potenti. Sed efficitur vulputate libero eu luctus. Suspendisse vel tempus justo.
+    </div><!--end luna-->
+    
+    <div id="stars"><!--icon links-->
+        <a href="/" title="home"><i class="fas fa-home"></i></a>
+        <a href="/ask" title="ask"><i class="fas fa-paper-plane"></i></a>
+        <a href="/" title="custom link"><i class="fas fa-bars"></i></a>
+        <a href="https://shuvee.tumblr.com/" title="credit"><i class="fas fa-code"></i></a>
+    </div><!--end stars-->
+    
+    <div id="saturn"><!--bottom quote-->
+        Tonight too, thinking through the night <br>
+        Sleepless night, <a href="https://www.youtube.com/watch?v=H93jpYVy2CA"/>insomnia</a>
+    </div>
+</div><!--end galaxy-->
+
+<!-- remember: don't remove | santa is always watching, always judging-->
+<div id="credit"><a title="shuvee" href="https://shuvee.tumblr.com"><d class="far fa-moon"></d></a></div>
+</body>
+</html>
